@@ -2,10 +2,16 @@
   "name": "articlesserver",
   "version": "1.0.0",
   "description": "tz for areal-team",
+  "type": "module",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "mikhail",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sequelize": "^6.26.0",
+    "sqlite3": "^5.1.2"
+  }
 }
